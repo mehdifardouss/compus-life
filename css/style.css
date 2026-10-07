@@ -1,0 +1,198 @@
+.container {
+    width: 90%;
+    max-width: 2200px;
+    margin: 0 auto;
+}
+
+.avant {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 300px;
+}
+
+footer {
+    background-color: #101211;
+
+}
+
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
+.begin {
+    display: flex;
+    justify-content: start;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.lestitrefo {
+    color: #C3F85C;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+footer p {
+    font-size: medium;
+    color: #B2BDB3;
+}
+
+form button {
+    background-color: #5E5BFF;
+    color: rgb(251, 251, 252);
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+
+.intro h5 {
+    color: #034BFF;
+}
+
+.intro h1 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: #034BFF;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+
+}
+
+.compus-header {
+    display: flex;
+}
+
+nav ul :hover {
+    color: #034BFF;
+    text-decoration: underline;
+}
+
+.all h1 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-weight: bold;
+    width: 918PX;
+    height: 39PX;
+    font-family: 'Inter', sans-serif;
+}
+
+.papad {
+    padding: 15px;
+}
+
+article {
+    border: #DDE4F0 solid 1px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.compuses article {
+    padding-inline: 20px;
+}
+
+.compuses {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: ROW;
+    flex-wrap: wrap;
+}
+
+.compuses article {
+    flex: 1;
+    width: auto;
+}
+
+.cards {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cards article {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.compuses h5 {
+    color: #034BFF;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0;
+}
+
+.all h4 {
+
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0;
+    color: #034BFF;
+}
+
+.all h5 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0;
+    color: #034BFF
+}
+
+.cards article img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
