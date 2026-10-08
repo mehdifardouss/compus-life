@@ -59,7 +59,9 @@ footer ul {
     line-height: 145%;
     letter-spacing: 0;
 }
-    
+    .logohead{
+        margin-left: 75px;
+    }
 
 footer a {
     text-decoration: none;
@@ -132,7 +134,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-       margin-bottom: 80px;
+       margin-bottom: 10px;
+      
 }
 header nav ul {
     display: flex;
@@ -263,7 +266,153 @@ article {
     width: 120px;
     height: auto;
     margin-left: 75px;
+    
 }
 .partie1 p {
     margin-left: 75px;
 }
+
+.hero{
+    display: flex;
+    background-color: #08111D;
+ ;
+   
+}
+.hero1{
+    display: block;
+
+    margin-left: 80px;
+    
+    
+}
+.hero1 h1 {
+
+font-family: Inter;
+font-weight: 900;
+font-style: rgb(3, 3, 3);
+font-size: 76px;
+line-height: 120%;
+letter-spacing: 0%;
+color: white;
+}
+.span1{
+    font-family: Inter;
+font-weight: 900;
+font-style: Black;
+font-size: 88px;
+line-height: 120%;
+letter-spacing: 0%;
+color: #034BFF;
+
+}
+.span2{
+      font-family: Inter;
+font-weight: 900;
+font-style: Black;
+font-size: 66px;
+line-height: 120%;
+letter-spacing: 0%;
+color: #c1ee44;
+}
+.h44{
+    font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 26px;
+line-height: 120%;
+letter-spacing: 0%;
+color: white;
+
+
+}
+.hero p {font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 120%;
+letter-spacing: 0%;
+color: white;
+margin-bottom: 40px;}
+
+.compuslink{
+     width: 184;
+height: 42;
+border: #031d9e solid 1px;
+color: white;
+opacity: 1;
+top: 334px;
+left: 61px;
+border-radius: 5px;
+padding: 10px;
+background-color: #034BFF;
+margin-top: 30px;
+
+}
+.evenlink{
+    width: 176;
+height: 42;
+border:#8EABFF solid 1px;
+opacity: 1;
+top: 334px;
+left: 264px;
+border-radius: 5px;
+border-width: 1px;
+padding: 10px;
+color: white;
+margin-left: 25px;
+margin-top: 30px;
+margin-bottom: 40px;
+
+}
+a{
+    list-style: none;
+    text-decoration: none;
+
+}
+.imghero{display: flex;
+justify-content: end;
+align-items: end;
+margin-left: auto;
+ }
+.cercle{background-color: rgb(92, 117, 100) ;
+    display: flex;
+
+   
+}
+.statistique{ display:flex ;
+margin-top: 40px;
+justify-content: space-between;
+gap: 50px;}
+.stat{
+    display: flex;
+}
+.stat h1{font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 26px;
+
+line-height: 120%;
+letter-spacing: 0%;
+}.stat i {
+    margin-top: 15px;
+}
+.explore{
+    display: flex;
+}
+.ensvrplus{display: flex;}
+.bbb{display:flex ;}
+.buuu{
+    width: 260;
+height: 63;
+border: solid 1px;
+border-radius: 8px;
+opacity: 1;
+gap: 12px;
+border-radius: 12px;
+padding: 20px;
+background: var(--color-lime, #C3F85C);
+color: #08111D;
+
+}
+.lestitrefo{margin-bottom: 30px;}
+.parie3{margin-right: 50px;}git add.
