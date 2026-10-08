@@ -4,6 +4,24 @@
     margin: 0 auto;
 }
 
+header img {
+    width: 120px;
+    height: auto;
+}
+header nav {
+    display: flex;
+  
+    align-items: center;
+    gap: 25px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .avant {
     display: flex;
     justify-content: start;
@@ -58,10 +76,14 @@ footer p {
 }
 
 form button {
+    display: flex;
     background-color: #5E5BFF;
     color: rgb(251, 251, 252);
     border-radius: 5px;
     padding: 20px;
+      width: 620px;
+    height: 50px;
+   
 
 
 }
@@ -93,10 +115,22 @@ nav li a {
     padding: 12px 24px;
 
 }
-
-.compus-header {
+header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+       margin-bottom: 80px;
 }
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 nav ul :hover {
     color: #034BFF;
@@ -110,6 +144,24 @@ nav ul :hover {
     width: 918PX;
     height: 39PX;
     font-family: 'Inter', sans-serif;
+}
+.inscrption h1 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-weight: bold;
+    width: 918PX;
+    height: 39PX;
+    font-family: 'Inter', sans-serif;
+}
+.part input {
+    width: 620px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #DDE4F0;
+
+    padding: 10px 15px;
+
+    box-sizing: border-box;
 }
 
 .papad {
